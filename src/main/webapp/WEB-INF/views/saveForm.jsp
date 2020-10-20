@@ -34,6 +34,7 @@
 	border: 0px;
 	font-size: 14px;
 	font-weight: 600;
+	
 }
 </style>
 <main>
@@ -60,6 +61,8 @@
 				});
 			</script>
 			<button type="button" onclick="save()" id="btnSave">글쓰기 완료</button>
+			
+<!-- script 부분 -->
 			<script type="text/javascript">
 			function save() {
 				let title = document.querySelector("#title").value;
